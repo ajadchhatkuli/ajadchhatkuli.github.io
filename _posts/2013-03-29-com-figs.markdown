@@ -2,7 +2,7 @@
 layout: post
 title:  "Separating compound figures in journal articles to allow for subfigure classification"
 date:   2013-03-29
-image: /images/com-figs.png
+image: /images/compoundfigures.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Antonio Foncubierta-Rodríguez, Dimitrios Markonis, Fabrice Meriaudeau, Henning Müller"
 venue: "SPIE"

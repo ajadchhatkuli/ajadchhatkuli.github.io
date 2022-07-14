@@ -1,0 +1,2 @@
+I"X<p>We revisit the boundary detection problem and introduce a principled approach based on a redefinition of boundary with dense labels without label imbalance. We specifically use the unit vector to the closest boundary, beating standard binary label based methods and a baseline method based on distance transform in thorough experiments.</p>
+:ET

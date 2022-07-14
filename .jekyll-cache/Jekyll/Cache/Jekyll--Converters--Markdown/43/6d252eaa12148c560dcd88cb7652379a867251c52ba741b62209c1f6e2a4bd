@@ -1,0 +1,4 @@
+I"Â<p>This paper aims at learning semantic 3D keypoints across misaligned shapes in a category, in an unsupervised manner. In order to do so, we
+model shapes defined by the keypoints, within a category, using the symmetric linear basis shapes without assuming the plane of symmetry to be
+known. The plane of symmetry and the basis shapes are learned as weights of the network for a category, while the coefficients are predicted per shape instance.</p>
+:ET

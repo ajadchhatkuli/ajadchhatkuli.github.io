@@ -1,0 +1,2 @@
+I"ñ<p>We propose a few shot domain adaptive method for incorporating source and target data which have inconsistent label spaces as well as different input domains. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.</p>
+:ET

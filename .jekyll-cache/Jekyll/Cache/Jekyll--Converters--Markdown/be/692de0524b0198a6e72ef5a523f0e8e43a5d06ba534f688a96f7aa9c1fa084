@@ -1,0 +1,6 @@
+I"ÿ<p>This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
+Multi-Head Self-Attention (MHSA). To this end, we propose the Hierarchical MHSA (H-MHSA), whose representation is computed in a
+hierarchical manner. Specifically, we first divide the input image into patches as commonly done, and each patch is viewed as a token. Then, the proposed H-MHSA learns token relationships within local patches, serving as local relationship modeling. Then, the small
+patches are merged into larger ones, and H-MHSA models the global dependencies for the small number of the merged tokens. At last,
+the local and global attentive features are aggregated to obtain features with powerful representation capacity.</p>
+:ET

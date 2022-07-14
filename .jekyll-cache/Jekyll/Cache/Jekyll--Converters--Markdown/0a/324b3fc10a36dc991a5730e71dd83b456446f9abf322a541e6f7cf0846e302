@@ -1,0 +1,3 @@
+I"G<p>The paper tackles the challenging problem of Open Compound Domain Adaptation (OCDA), where target domain is modeled as
+a compound of multiple unknown homogeneous domains. We propose a principled meta-learning based approach to OCDA for semantic segmentation, MOCDA, by modeling the unlabeled target domain continuously.</p>
+:ET

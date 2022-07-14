@@ -1,0 +1,10 @@
+I"<p>We introduce a new GAN transfer method to explicitly propagate
+the knowledge from the old classes to the new classes. The
+key idea is to enforce the popularly used conditional batch
+normalization (BN) to learn the class-specific information
+of the new classes from that of the old classes, with implicit
+knowledge sharing among the new ones. This allows for
+an efficient knowledge propagation from the old classes to
+the new ones, with the BN parameters increasing linearly
+with the number of new classes.</p>
+:ET

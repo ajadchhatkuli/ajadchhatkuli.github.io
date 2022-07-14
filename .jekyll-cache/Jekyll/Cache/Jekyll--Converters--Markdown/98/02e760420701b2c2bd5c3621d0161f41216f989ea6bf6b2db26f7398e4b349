@@ -1,0 +1,6 @@
+I"<p>We formulate the model-free consensus
+maximization as an Integer Program in a graph using ‘rules’ on measurements.
+We then provide a method to solve it optimally using the Branch and Bound
+(BnB) paradigm. We focus its application on non-rigid shapes, where we apply
+the method to remove outlier 3D correspondences and achieve performance superior to the state of the art.</p>
+:ET

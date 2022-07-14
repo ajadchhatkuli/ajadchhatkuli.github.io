@@ -1,0 +1,8 @@
+I")<p>In this paper, we train and evaluate several localization methods on three different benchmark datasets, including Oxford RobotCar with over one million images.
+This large scale evaluation yields valuable insights into
+the generalizability and performance of retrieval-based
+localization. Based on our findings, we develop a novel
+method for learning more accurate and better generalizing localization features. It consists of two main
+contributions: (i) a feature volume-based loss function,
+and (ii) hard positive and pairwise negative mining.</p>
+:ET
