@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "ZippyPoint: Fast Interest Point Detection, Description, and Matching through Mixed Precision Discretization"
+date:   2022-03-07
+image: /images/zippypoint.png
+categories: research
+authors: "*Simon Mauer, Menelaos Kanakis*, Matteo Spallanzani, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
+venue: "CoRR"
+arxiv: https://arxiv.org/pdf/2203.03610
+---
+
+We propose a method for training a fast binary local image point descriptor. The paper describes a method to train binary descriptor by adapting network quantization techniques. The method achieves unprecedented speed in deep local image descriptors. 

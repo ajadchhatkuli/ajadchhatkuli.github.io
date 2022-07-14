@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Neural Vector Fields for Surface Representation and Inference"
+date:   2022-04-13
+image: /images/neural_vecfield.png
+categories: research
+authors: "Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, Ender Konukoglu, Luc Van Gool"
+arxiv: https://arxiv.org/pdf/2204.06552.pdf
+venue: "CoRR"
+---
+
+We propose a novel representation for implicit surfaces. This is the first method that can represent open surfaces and also obtain mesh representation with a feedforward network and a Marching Cubes like algorithm.  

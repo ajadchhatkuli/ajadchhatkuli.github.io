@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Learning Condition Invariant Features for Retrieval-Based Localization from 1M Images"
+date:   2020-08-27
+image: /images/mio.png
+categories: research
+authors: "Janine Thoma, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
+venue: "CoRR"
+arxiv: https://arxiv.org/pdf/2008.12165
+---
+In this paper, we train and evaluate several localization methods on three different benchmark datasets, including Oxford RobotCar with over one million images.
+This large scale evaluation yields valuable insights into
+the generalizability and performance of retrieval-based
+localization. Based on our findings, we develop a novel
+method for learning more accurate and better generalizing localization features. It consists of two main
+contributions: (i) a feature volume-based loss function,
+and (ii) hard positive and pairwise negative mining.

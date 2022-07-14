@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Self-Calibration Supported Robust Projective Structure-from-Motion"
+date:   2020-07-04
+image: /images/sc_rsfm.png
+categories: research
+authors: "Rui Gong, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
+venue: "CoRR"
+arxiv: https://arxiv.org/pdf/2007.02045
+---
+In this paper, we propose a unified SfM method, in which the matching process is supported by self-calibration constraints. We use the idea that good matches should yield a valid calibration. In this process, we make use of the Dual Image of Absolute Quadric projection equations within a multiview correspondence framework, in order to obtain robust matching from a set of putative correspondences.

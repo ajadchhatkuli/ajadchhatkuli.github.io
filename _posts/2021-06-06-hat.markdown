@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Transformer in convolutional neural networks"
+date:   2021-06-06
+image: /images/mhsa.png
+categories: research
+authors: "Yun Liu, Yun Liu, Guolei Sun, Yu Qiu, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
+venue: "CVPR"
+arxiv: https://arxiv.org/pdf/2106.03180
+---
+This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
+Multi-Head Self-Attention (MHSA). To this end, we propose the Hierarchical MHSA (H-MHSA), whose representation is computed in a
+hierarchical manner. Specifically, we first divide the input image into patches as commonly done, and each patch is viewed as a token. Then, the proposed H-MHSA learns token relationships within local patches, serving as local relationship modeling. Then, the small
+patches are merged into larger ones, and H-MHSA models the global dependencies for the small number of the merged tokens. At last,
+the local and global attentive features are aggregated to obtain features with powerful representation capacity.

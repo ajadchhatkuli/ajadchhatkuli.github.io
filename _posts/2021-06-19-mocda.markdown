@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Cluster, split, fuse, and update: Meta-learning for open compound domain adaptive semantic segmentation"
+date:   2021-06-19
+image: /images/mocda.png
+categories: research
+authors: "Rui Gong, Yuhua Chen, Danda Pani Paudel, Yawei Li,  <strong>Ajad Chhatkuli</strong>, Wen Li, Dengxin Dai, Luc Van Gool"
+venue: "CVPR"
+pdf: https://openaccess.thecvf.com/content/CVPR2021/papers/Gong_Cluster_Split_Fuse_and_Update_Meta-Learning_for_Open_Compound_Domain_CVPR_2021_paper.pdf
+---
+The paper tackles the challenging problem of Open Compound Domain Adaptation (OCDA), where target domain is modeled as
+a compound of multiple unknown homogeneous domains. We propose a principled meta-learning based approach to OCDA for semantic segmentation, MOCDA, by modeling the unlabeled target domain continuously.

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "TADA: Taxonomy Adaptive Domain Adaptation"
+date:   2022-06-10
+image: /images/tada.png
+categories: research
+authors: "Rui Gong, Martin Danelljan, Dengxin Dai, Wenguan Wang, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Fisher Yu, Luc Van Gool"
+venue: "To appear in ECCV"
+arxiv: https://arxiv.org/pdf/2109.04813
+---
+
+We propose a few shot domain adaptive method for incorporating source and target data which have inconsistent label spaces as well as different input domains. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.

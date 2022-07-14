@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Zero pixel directional boundary by vector transform"
+date:   2022-03-15
+image: /images/zerovec.png
+categories: research
+authors: "Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, Yun Liu, Ender Konukoglu, Luc Van Gool"
+venue: "ICLR"
+pdf: https://openreview.net/pdf?id=nxcABL7jbQh
+code: 
+---
+
+We revisit the boundary detection problem and introduce a principled approach based on a redefinition of boundary with dense labels without label imbalance. We specifically use the unit vector to the closest boundary, beating standard binary label based methods and a baseline method based on distance transform in thorough experiments.

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Unsupervised learning of category-specific symmetric 3d keypoints from point sets"
+date:   2020-08-23
+image: /images/cat_keyp.png
+categories: research
+authors: "Clara Fernandez-Labrador, <strong>Ajad Chhatkuli</strong>, Danda Pani Paudel, Jose J Guerrero, Cédric Demonceaux, Luc Van Gool"
+venue: "ECCV"
+pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700545.pdf
+code: https://github.com/cfernandezlab/Category-Specific-Keypoints
+---
+This paper aims at learning semantic 3D keypoints across misaligned shapes in a category, in an unsupervised manner. In order to do so, we
+model shapes defined by the keypoints, within a category, using the symmetric linear basis shapes without assuming the plane of symmetry to be
+known. The plane of symmetry and the basis shapes are learned as weights of the network for a category, while the coefficients are predicted per shape instance.
