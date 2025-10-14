@@ -61,11 +61,16 @@
                 {% if post.arxiv or post.pdf or post.video or post.code or post.poster or post.slides or post.excerpt %}
                 <div class="pub-card__actions">
                   <div class="pub-card__links">
-                    {% if post.arxiv %}
-                    <a class="pub-link pub-link--text" href="{{ post.arxiv }}">arxiv</a>
+                    {% assign primary_link = post.arxiv | default: post.pdf %}
+                    {% if post.arxiv and post.pdf %}
+                    {% assign primary_label = 'arxiv/pdf' %}
+                    {% elsif post.arxiv %}
+                    {% assign primary_label = 'arxiv' %}
+                    {% else %}
+                    {% assign primary_label = 'pdf' %}
                     {% endif %}
-                    {% if post.pdf %}
-                    <a class="pub-link pub-link--text" href="{{ post.pdf }}">pdf</a>
+                    {% if primary_link %}
+                    <a class="pub-link pub-link--text" href="{{ primary_link }}">{{ primary_label }}</a>
                     {% endif %}
                     {% if post.excerpt %}
                     <details class="pub-card__details">
