@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Transformer in convolutional neural networks"
-date:   2021-06-06
+title:  "Vision transformers with hierarchical attention."
+date:   2024-06-06
 image: /images/mhsa.png
 categories: research
 authors: "Yun Liu, Yun Liu, Guolei Sun, Yu Qiu, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
