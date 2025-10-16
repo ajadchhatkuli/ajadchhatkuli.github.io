@@ -2,7 +2,7 @@
 layout: post
 title: "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark"
 date:   2025-10-07
-image: /images/egonight-towards-egocentric-vision-understanding-at-night-with-a-challenging-ben.png
+image: /images/egonight-teaser-720.png
 categories: research
 authors: "Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, L. V. Gool, D. Paudel"
 venue: "arXiv"
