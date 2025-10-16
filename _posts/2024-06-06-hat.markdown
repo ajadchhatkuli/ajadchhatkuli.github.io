@@ -5,7 +5,7 @@ date:   2024-06-06
 image: /images/mhsa.png
 categories: research
 authors: "Yun Liu, Yun Liu, Guolei Sun, Yu Qiu, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
-venue: "CVPR"
+venue: "Machine Intelligence Research"
 arxiv: https://arxiv.org/pdf/2106.03180
 ---
 This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
