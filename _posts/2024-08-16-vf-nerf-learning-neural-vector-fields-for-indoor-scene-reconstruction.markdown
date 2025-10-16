@@ -10,12 +10,6 @@ arxiv: https://arxiv.org/abs/2408.08766
 pdf: https://arxiv.org/pdf/2408.08766.pdf
 ---
 
-Implicit surfaces via neural radiance fields (NeRF) have shown surprising accuracy in surface
-reconstruction.
-
-Despite their success in reconstructing richly textured surfaces, existing methods struggle with
-planar regions with weak textures, which account for the majority of indoor scenes.
-
 In this paper, we address indoor dense surface reconstruction by revisiting key aspects of NeRF in
 order to use the recently proposed Vector Field (VF) as the implicit representation.
 

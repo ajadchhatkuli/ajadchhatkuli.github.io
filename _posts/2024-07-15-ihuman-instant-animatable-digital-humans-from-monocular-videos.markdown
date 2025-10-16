@@ -10,11 +10,6 @@ arxiv: https://arxiv.org/abs/2407.11174
 pdf: https://arxiv.org/pdf/2407.11174.pdf
 ---
 
-Personalized 3D avatars require an animatable representation of digital humans.
-
-Doing so instantly from monocular videos offers scalability to broad class of users and wide-scale
-applications.
-
 In this paper, we present a fast, simple, yet effective method for creating animatable 3D digital
 humans from monocular videos.
 
