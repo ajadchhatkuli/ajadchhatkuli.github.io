@@ -2,7 +2,7 @@
 layout: post
 title: "Self-supervised Shape Completion via Involution and Implicit Correspondences"
 date:   2024-09-24
-image: /images/self-supervised-shape-completion-via-involution-and-implicit-correspondences.png
+image: /images/self-supervised-shape-completion-invo.png
 categories: research
 authors: "Mengya Liu, <strong>Ajad Chhatkuli</strong>, Janis Postels, L. V. Gool, F. Tombari"
 venue: "European Conference on Computer Vision"

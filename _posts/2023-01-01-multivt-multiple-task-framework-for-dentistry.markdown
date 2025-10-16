@@ -2,7 +2,7 @@
 layout: post
 title: "MultiVT: Multiple-Task Framework for Dentistry"
 date:   2023-01-01
-image: /images/placeholder.png
+image: /images/multivt-multiple-task-framework.png
 categories: research
 authors: "Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, E. Konukoglu, L. V. Gool"
 venue: "DART@MICCAI"

@@ -2,7 +2,7 @@
 layout: post
 title: "Enhancing Semantic Segmentation with Continual Self-Supervised Pre-training"
 date:   2025-09-22
-image: /images/enhancing-semantic-segmentation-with-continual-self-supervised-pre-training.png
+image: /images/enhancing-semantic-segmentation-continual.png
 categories: research
 authors: "Brown Ebouky, <strong>Ajad Chhatkuli</strong>, C. Malossi, Christoph Studer, Roy Assaf, A. Bartezzaghi"
 venue: "arXiv"

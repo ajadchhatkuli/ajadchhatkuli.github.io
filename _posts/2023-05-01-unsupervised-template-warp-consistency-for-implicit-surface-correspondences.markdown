@@ -2,7 +2,7 @@
 layout: post
 title: "Unsupervised Template Warp Consistency for Implicit Surface Correspondences"
 date:   2023-05-01
-image: /images/placeholder.png
+image: /images/unsupervised-template-warp-consistency.png
 categories: research
 authors: "Mengya Liu, <strong>Ajad Chhatkuli</strong>, Janis Postels, L. Gool, F. Tombari"
 venue: "Computer graphics forum (Print)"
