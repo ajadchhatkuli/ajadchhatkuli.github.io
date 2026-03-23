@@ -4,9 +4,10 @@ title:  "Vision transformers with hierarchical attention."
 date:   2024-06-06
 image: /images/mhsa.png
 categories: research
-authors: "Yun Liu, Yun Liu, Guolei Sun, Yu Qiu, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
+authors: "Yun Liu, Yu-Huan Wu, Guolei Sun, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "Machine Intelligence Research"
-arxiv: https://arxiv.org/pdf/2106.03180
+arxiv: https://arxiv.org/abs/2106.03180
+pdf: https://arxiv.org/pdf/2106.03180.pdf
 ---
 This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
 Multi-Head Self-Attention (MHSA). To this end, we propose the Hierarchical MHSA (H-MHSA), whose representation is computed in a
