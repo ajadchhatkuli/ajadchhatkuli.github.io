@@ -5,7 +5,7 @@ date:   2025-10-07
 image: /images/egonight-teaser-720.png
 categories: research
 authors: "Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, L. V. Gool, D. Paudel"
-venue: "arXiv"
+venue: "ICLR 2026"
 arxiv: https://arxiv.org/abs/2510.06218
 pdf: https://arxiv.org/pdf/2510.06218.pdf
 ---
