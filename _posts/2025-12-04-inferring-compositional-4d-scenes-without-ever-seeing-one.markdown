@@ -5,7 +5,7 @@ date:   2025-12-04
 image: /images/com4d-teaser.png
 categories: research
 authors: "Ahmet Berke Gokmen, <strong>Ajad Chhatkuli</strong>, Luc Van Gool, Danda Pani Paudel"
-venue: "arXiv"
+venue: "CVPR 2026"
 arxiv: https://arxiv.org/abs/2512.05272
 pdf: https://arxiv.org/pdf/2512.05272.pdf
 ---

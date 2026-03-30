@@ -4,7 +4,7 @@ title: "EgoNight: Towards Egocentric Vision Understanding at Night with a Challe
 date:   2025-10-07
 image: /images/egonight-teaser-720.png
 categories: research
-authors: "Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, L. V. Gool, D. Paudel"
+authors: "Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, Luc Van Gool, Danda Pani Paudel"
 venue: "ICLR 2026"
 arxiv: https://arxiv.org/abs/2510.06218
 pdf: https://arxiv.org/pdf/2510.06218.pdf

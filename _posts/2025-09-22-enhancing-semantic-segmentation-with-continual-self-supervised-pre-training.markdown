@@ -5,7 +5,7 @@ date:   2025-09-22
 image: /images/enhancing-semantic-segmentation-continual.png
 categories: research
 authors: "Brown Ebouky, <strong>Ajad Chhatkuli</strong>, C. Malossi, Christoph Studer, Roy Assaf, A. Bartezzaghi"
-venue: "arXiv"
+venue: "TMLR 2025"
 arxiv: https://arxiv.org/abs/2509.17816
 pdf: https://arxiv.org/pdf/2509.17816.pdf
 ---
