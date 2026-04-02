@@ -3,47 +3,44 @@
 
 <head>
   <title>Ajad Chhatkuli</title>
-
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
+  <meta charset="utf-8">
   <meta name="author" content="Ajad Chhatkuli" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="canonical" href="http://localhost:4000/">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
-
 
 <body>
   <div class="site">
     <div class="site__inner">
+      <nav class="nav">
+        <div class="nav__links">
+          <a class="nav__link" href="#about">About</a>
+          
+          <a class="nav__link" href="#publications">Publications</a>
+          <a class="nav__link" href="#experience">Experience</a>
+        </div>
+      </nav>
+
       <header class="hero" id="about">
         <div class="hero__intro">
-          <h1 class="hero__title">
-            Ajad Chhatkuli
-          </h1>
-          <p>I am a research scientist at <a href="https://insait.ai/">INSAIT</a>, previously a senior scientist and postdoc at the Computer Vision Lab in ETH Zurich, in the group of <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Prof. Luc Van Gool</a>. I completed my PhD <a href="https://tel.archives-ouvertes.fr/tel-01491344">thesis</a> under the supervision of <a href="http://igt.ip.uca.fr/~ab/">Prof. Adrien Bartoli</a> and <a href="https://www.uah.es/en/estudios/profesor/Daniel-Pizarro-Perez/">Prof. Daniel Pizarro</a> in the field of non-rigid 3D reconstruction. Currently my research scope is diverse, though I have two main focus areas: i) 3D/4D scene understanding and generation  ii) video understanding.</p>
+          <h1 class="hero__title">Ajad Chhatkuli</h1>
+          <p>I am a research scientist at <a href="https://insait.ai/">INSAIT</a>, previously a senior scientist and postdoc at the Computer Vision Lab in ETH Zurich, in the group of <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Prof. Luc Van Gool</a>. I completed my PhD <a href="https://tel.archives-ouvertes.fr/tel-01491344">thesis</a> under the supervision of <a href="http://igt.ip.uca.fr/~ab/">Prof. Adrien Bartoli</a> and <a href="https://www.uah.es/en/estudios/profesor/Daniel-Pizarro-Perez/">Prof. Daniel Pizarro</a> in the field of non-rigid 3D reconstruction.</p>
+          <p>Currently my research scope is diverse, though I have two main focus areas: <strong>3D/4D scene understanding and generation</strong> and <strong>video understanding</strong>.</p>
+          
           <nav class="hero__links" aria-label="Contact links">
-            <a class="hero__link" href="mailto:ajad.chhatkuli@insait.ai">
-              <span class="sr-only">Email</span>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                <path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.2l8 5.3 8-5.3V7H4zm16 10v-8.1l-7.4 4.9a1 1 0 0 1-1.2 0L4 10.9V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z" />
-              </svg>
+            <a class="hero__link" href="mailto:ajad.chhatkuli@insait.ai" title="Email">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.2l8 5.3 8-5.3V7H4zm16 10v-8.1l-7.4 4.9a1 1 0 0 1-1.2 0L4 10.9V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z" /></svg>
             </a>
-            <a class="hero__link" href="https://github.com/ajadchhatkuli">
-              <span class="sr-only">GitHub</span>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-              </svg>
+            <a class="hero__link" href="https://github.com/ajadchhatkuli" title="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
             </a>
-            <a class="hero__link" href="https://scholar.google.com/citations?user=3BHMHU4AAAAJ&hl=en">
-              <span class="sr-only">Google Scholar</span>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
-              </svg>
+            <a class="hero__link" href="https://scholar.google.com/citations?user=3BHMHU4AAAAJ&hl=en" title="Google Scholar">
+              <svg viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" /></svg>
             </a>
           </nav>
         </div>
@@ -53,9 +50,49 @@
       </header>
 
       <main class="content">
-        <section class="section section--publications" id="publications">
+        
+
+        <section class="section" id="publications">
           <h2 class="section__title">Publications</h2>
           <div class="pub-list">
+            
+            
+            <article class="pub-card">
+              
+              <div class="pub-card__media">
+                <img src="/tn/images/com4d-teaser.png" alt="Inferring Compositional 4D Scenes without Ever Seeing One thumbnail">
+              </div>
+              
+              <div class="pub-card__body">
+                <h3 class="pub-card__title">Inferring Compositional 4D Scenes without Ever Seeing One</h3>
+                <p class="pub-card__authors">Ahmet Berke Gokmen, <strong>Ajad Chhatkuli</strong>, Luc Van Gool, Danda Pani Paudel</p>
+                <p class="pub-card__meta">
+                  <em>CVPR 2026</em>, 2025
+                  
+                </p>
+                <div class="pub-card__actions">
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2512.05272">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We propose COM4D (Compositional 4D), a method that consistently and jointly predicts the structure and spatio-temporal configuration of 4D/3D objects using only static multi-object or dynamic single object supervision.</p>
+
+
+                  </div>
+                </details>
+                
+              </div>
+            </article>
+            
             
             
             <article class="pub-card">
@@ -66,36 +103,31 @@
               
               <div class="pub-card__body">
                 <h3 class="pub-card__title">EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark</h3>
-                <p class="pub-card__authors">Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, L. V. Gool, D. Paudel</p>
+                <p class="pub-card__authors">Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, <strong>Ajad Chhatkuli</strong>, Xuanjing Huang, Yugen Jiang, Luc Van Gool, Danda Pani Paudel</p>
                 <p class="pub-card__meta">
-                  <em>arXiv</em>, 2025
+                  <em>ICLR 2026</em>, 2025
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2510.06218">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We present EgoNight, the first comprehensive benchmark for nighttime
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2510.06218">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We present EgoNight, the first comprehensive benchmark for nighttime
 egocentric vision, with visual question answering (VQA) as the core task.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -112,34 +144,29 @@ egocentric vision, with visual question answering (VQA) as the core task.</p>
                 <h3 class="pub-card__title">Enhancing Semantic Segmentation with Continual Self-Supervised Pre-training</h3>
                 <p class="pub-card__authors">Brown Ebouky, <strong>Ajad Chhatkuli</strong>, C. Malossi, Christoph Studer, Roy Assaf, A. Bartezzaghi</p>
                 <p class="pub-card__meta">
-                  <em>arXiv</em>, 2025
+                  <em>TMLR 2025</em>, 2025
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2509.17816">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this work, we address the problem of adapting vision foundation models to new domains in an
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2509.17816">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this work, we address the problem of adapting vision foundation models to new domains in an
 unsupervised and data-efficient manner, specifically targeting downstream semantic segmentation.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -159,32 +186,64 @@ unsupervised and data-efficient manner, specifically targeting downstream semant
                   <em>Computer Vision and Pattern Recognition</em>, 2025
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2505.04109">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We propose a novel method One2Any that estimates the relative 6-degrees of freedom
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2505.04109">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We propose a novel method One2Any that estimates the relative 6-degrees of freedom
 (DOF) object pose using only a single reference-single query RGB-D image, without prior knowledge of
 its 3D model, multi-view data, or category constraints.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
+                </details>
+                
+              </div>
+            </article>
+            
+            
+            
+            <article class="pub-card">
+              
+              <div class="pub-card__media">
+                <img src="/tn/images/neural_vecfield.png" alt="Neural Vector Fields for Implicit Surface Representation and Inference thumbnail">
+              </div>
+              
+              <div class="pub-card__body">
+                <h3 class="pub-card__title">Neural Vector Fields for Implicit Surface Representation and Inference</h3>
+                <p class="pub-card__authors">Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, Ender Konukoglu, Luc Van Gool</p>
+                <p class="pub-card__meta">
+                  <em>International Journal of Computer Vision (IJCV)</em>, 2025
+                  
+                </p>
+                <div class="pub-card__actions">
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2204.06552">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We propose a novel representation for implicit surfaces. This is the first method that can represent open surfaces and also obtain mesh representation with a feedforward network and a Marching Cubes like algorithm.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -204,30 +263,25 @@ its 3D model, multi-view data, or category constraints.</p>
                   <em>European Conference on Computer Vision</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2409.15939">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we propose a non-adversarial self-supervised approach for the shape completion task.</p>
-
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2409.15939">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we propose a non-adversarial self-supervised approach for the shape completion task.</p>
+
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -247,31 +301,26 @@ its 3D model, multi-view data, or category constraints.</p>
                   <em>arXiv.org</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2408.08766">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we address indoor dense surface reconstruction by revisiting key aspects of NeRF in
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2408.08766">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we address indoor dense surface reconstruction by revisiting key aspects of NeRF in
 order to use the recently proposed Vector Field (VF) as the implicit representation.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -291,31 +340,26 @@ order to use the recently proposed Vector Field (VF) as the implicit representat
                   <em>European Conference on Computer Vision</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2407.11174">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we present a fast, simple, yet effective method for creating animatable 3D digital
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2407.11174">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we present a fast, simple, yet effective method for creating animatable 3D digital
 humans from monocular videos.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -330,38 +374,33 @@ humans from monocular videos.</p>
               
               <div class="pub-card__body">
                 <h3 class="pub-card__title">Vision transformers with hierarchical attention.</h3>
-                <p class="pub-card__authors">Yun Liu, Yun Liu, Guolei Sun, Yu Qiu, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool</p>
+                <p class="pub-card__authors">Yun Liu, Yu-Huan Wu, Guolei Sun, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool</p>
                 <p class="pub-card__meta">
                   <em>Machine Intelligence Research</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2106.03180">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2106.03180">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>This paper tackles the low-efficiency flaw of the vision transformer caused by the high computational/space complexity in
 Multi-Head Self-Attention (MHSA). To this end, we propose the Hierarchical MHSA (H-MHSA), whose representation is computed in a
 hierarchical manner. Specifically, we first divide the input image into patches as commonly done, and each patch is viewed as a token. Then, the proposed H-MHSA learns token relationships within local patches, serving as local relationship modeling. Then, the small
 patches are merged into larger ones, and H-MHSA models the global dependencies for the small number of the merged tokens. At last,
 the local and global attentive features are aggregated to obtain features with powerful representation capacity.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -381,31 +420,26 @@ the local and global attentive features are aggregated to obtain features with p
                   <em>IEEE Workshop/Winter Conference on Applications of Computer Vision</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content/WACV2024/papers/Albanese_Optimizing_Long-Term_Robot_Tracking_With_Multi-Platform_Sensor_Fusion_WACV_2024_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Monitoring a fleet of robots requires stable long-term tracking with re-identification, which is yet
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2024/papers/Albanese_Optimizing_Long-Term_Robot_Tracking_With_Multi-Platform_Sensor_Fusion_WACV_2024_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Monitoring a fleet of robots requires stable long-term tracking with re-identification, which is yet
 an unsolved challenge in many scenarios.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -425,31 +459,26 @@ an unsolved challenge in many scenarios.</p>
                   <em>IEEE Workshop/Winter Conference on Applications of Computer Vision</em>, 2024
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content/WACV2024/papers/Himmi_MS-EVS_Multispectral_Event-Based_Vision_for_Deep_Learning_Based_Face_Detection_WACV_2024_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Event-based sensing is a relatively new imaging modality that enables low latency, low power, high
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2024/papers/Himmi_MS-EVS_Multispectral_Event-Based_Vision_for_Deep_Learning_Based_Face_Detection_WACV_2024_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Event-based sensing is a relatively new imaging modality that enables low latency, low power, high
 temporal resolution and high dynamic range acquisition.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -469,31 +498,26 @@ temporal resolution and high dynamic range acquisition.</p>
                   <em>arXiv.org</em>, 2023
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2312.15471">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Local image feature descriptors have had a tremendous impact on the development and application of
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2312.15471">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Local image feature descriptors have had a tremendous impact on the development and application of
 computer vision methods.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -513,31 +537,26 @@ computer vision methods.</p>
                   <em>Computer Vision and Pattern Recognition</em>, 2023
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2311.17119">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we showcase the effectiveness of optimizing monocular camera poses as a continuous
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2311.17119">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we showcase the effectiveness of optimizing monocular camera poses as a continuous
 function of time.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -557,31 +576,26 @@ function of time.</p>
                   <em>IEEE International Conference on Computer Vision</em>, 2023
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/2309.08416">arxiv/pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Modeling Neural Radiance Fields for fast-moving deformable objects from visual data alone is a
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/2309.08416">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Modeling Neural Radiance Fields for fast-moving deformable objects from visual data alone is a
 challenging problem.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -601,31 +615,26 @@ challenging problem.</p>
                   <em>Computer graphics forum (Print)</em>, 2023
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.14745">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Unsupervised template discovery via implicit representation in a category of shapes has recently
+                  
+                  
+                  <a class="pub-link" href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.14745">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Unsupervised template discovery via implicit representation in a category of shapes has recently
 shown strong performance.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -645,29 +654,24 @@ shown strong performance.</p>
                   <em>DART@MICCAI</em>, 2023
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>MultiVT introduces a unified transformer-based pipeline that handles detection, segmentation, and
+                  
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>MultiVT introduces a unified transformer-based pipeline that handles detection, segmentation, and
 landmark localisation on dental radiographs in a single network.</p>
 
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -687,71 +691,24 @@ landmark localisation on dental radiographs in a single network.</p>
                   <em>To appear in ECCV</em>, 2022
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2109.04813">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We propose a few shot domain adaptive method for incorporating source and target data which have inconsistent label spaces as well as different input domains. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/pdf/2109.04813">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
                 
-              </div>
-            </article>
-            
-            
-            
-            <article class="pub-card">
-              
-              <div class="pub-card__media">
-                <img src="/tn/images/neural_vecfield.png" alt="Neural Vector Fields for Surface Representation and Inference thumbnail">
-              </div>
-              
-              <div class="pub-card__body">
-                <h3 class="pub-card__title">Neural Vector Fields for Surface Representation and Inference</h3>
-                <p class="pub-card__authors">Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, Ender Konukoglu, Luc Van Gool</p>
-                <p class="pub-card__meta">
-                  <em>CoRR</em>, 2022
-                  
-                </p>
-                
-                <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2204.06552.pdf">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We propose a novel representation for implicit surfaces. This is the first method that can represent open surfaces and also obtain mesh representation with a feedforward network and a Marching Cubes like algorithm.</p>
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We propose a few shot domain adaptive method for incorporating source and target data which have inconsistent label spaces as well as different input domains. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -771,29 +728,24 @@ landmark localisation on dental radiographs in a single network.</p>
                   <em>ICLR</em>, 2022
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openreview.net/pdf?id=nxcABL7jbQh">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We revisit the boundary detection problem and introduce a principled approach based on a redefinition of boundary with dense labels without label imbalance. We specifically use the unit vector to the closest boundary, beating standard binary label based methods and a baseline method based on distance transform in thorough experiments.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://openreview.net/pdf?id=nxcABL7jbQh">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We revisit the boundary detection problem and introduce a principled approach based on a redefinition of boundary with dense labels without label imbalance. We specifically use the unit vector to the closest boundary, beating standard binary label based methods and a baseline method based on distance transform in thorough experiments.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -813,29 +765,24 @@ landmark localisation on dental radiographs in a single network.</p>
                   <em>CoRR</em>, 2022
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2203.03610">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We propose a method for training a fast binary local image point descriptor. The paper describes a method to train binary descriptor by adapting network quantization techniques. The method achieves unprecedented speed in deep local image descriptors.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/pdf/2203.03610">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We propose a method for training a fast binary local image point descriptor. The paper describes a method to train binary descriptor by adapting network quantization techniques. The method achieves unprecedented speed in deep local image descriptors.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -855,30 +802,25 @@ landmark localisation on dental radiographs in a single network.</p>
                   <em>3DV</em>, 2021
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2012.15680">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We present an unsupervised monocular framework for dense depth estimation of
-dynamic scenes, which jointly reconstructs rigid and nonrigid parts without explicitly modelling the camera motion. Our method uses the as rigid as possible deformation prior.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/pdf/2012.15680">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We present an unsupervised monocular framework for dense depth estimation of
+dynamic scenes, which jointly reconstructs rigid and nonrigid parts without explicitly modelling the camera motion. Our method uses the as rigid as possible deformation prior.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -898,30 +840,25 @@ dynamic scenes, which jointly reconstructs rigid and nonrigid parts without expl
                   <em>CVPR</em>, 2021
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Gong_Cluster_Split_Fuse_and_Update_Meta-Learning_for_Open_Compound_Domain_CVPR_2021_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>The paper tackles the challenging problem of Open Compound Domain Adaptation (OCDA), where target domain is modeled as
-a compound of multiple unknown homogeneous domains. We propose a principled meta-learning based approach to OCDA for semantic segmentation, MOCDA, by modeling the unlabeled target domain continuously.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Gong_Cluster_Split_Fuse_and_Update_Meta-Learning_for_Open_Compound_Domain_CVPR_2021_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>The paper tackles the challenging problem of Open Compound Domain Adaptation (OCDA), where target domain is modeled as
+a compound of multiple unknown homogeneous domains. We propose a principled meta-learning based approach to OCDA for semantic segmentation, MOCDA, by modeling the unlabeled target domain continuously.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -941,22 +878,21 @@ a compound of multiple unknown homogeneous domains. We propose a principled meta
                   <em>CVPR</em>, 2021
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://openaccess.thecvf.com/content/CVPR2021/papers/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We introduce a new GAN transfer method to explicitly propagate
+                  
+                  
+                  <a class="pub-link" href="http://openaccess.thecvf.com/content/CVPR2021/papers/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We introduce a new GAN transfer method to explicitly propagate
 the knowledge from the old classes to the new classes. The
 key idea is to enforce the popularly used conditional batch
 normalization (BN) to learn the class-specific information
@@ -966,12 +902,8 @@ an efficient knowledge propagation from the old classes to
 the new ones, with the BN parameters increasing linearly
 with the number of new classes.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -991,22 +923,21 @@ with the number of new classes.</p>
                   <em>CoRR</em>, 2020
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2008.12165">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we train and evaluate several localization methods on three different benchmark datasets, including Oxford RobotCar with over one million images.
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/pdf/2008.12165">arXiv</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we train and evaluate several localization methods on three different benchmark datasets, including Oxford RobotCar with over one million images.
 This large scale evaluation yields valuable insights into
 the generalizability and performance of retrieval-based
 localization. Based on our findings, we develop a novel
@@ -1014,12 +945,8 @@ method for learning more accurate and better generalizing localization features.
 contributions: (i) a feature volume-based loss function,
 and (ii) hard positive and pairwise negative mining.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1039,40 +966,26 @@ and (ii) hard positive and pairwise negative mining.</p>
                   <em>ECCV</em>, 2020
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700545.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>This paper aims at learning semantic 3D keypoints across misaligned shapes in a category, in an unsupervised manner. In order to do so, we
+                  
+                  
+                  <a class="pub-link" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700545.pdf">PDF</a>
+                  
+                  
+                  <a class="pub-link" href="https://github.com/cfernandezlab/Category-Specific-Keypoints">Code</a>
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>This paper aims at learning semantic 3D keypoints across misaligned shapes in a category, in an unsupervised manner. In order to do so, we
 model shapes defined by the keypoints, within a category, using the symmetric linear basis shapes without assuming the plane of symmetry to be
 known. The plane of symmetry and the basis shapes are learned as weights of the network for a category, while the coefficients are predicted per shape instance.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                  <div class="pub-card__links pub-card__links--secondary">
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://github.com/cfernandezlab/Category-Specific-Keypoints">code</a>
-                    
-                    
-                    
-                  </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1092,29 +1005,24 @@ known. The plane of symmetry and the basis shapes are learned as weights of the 
                   <em>CoRR</em>, 2020
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/pdf/2007.02045">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we propose a unified SfM method, in which the matching process is supported by self-calibration constraints. We use the idea that good matches should yield a valid calibration. In this process, we make use of the Dual Image of Absolute Quadric projection equations within a multiview correspondence framework, in order to obtain robust matching from a set of putative correspondences.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/pdf/2007.02045">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we propose a unified SfM method, in which the matching process is supported by self-calibration constraints. We use the idea that good matches should yield a valid calibration. In this process, we make use of the Dual Image of Absolute Quadric projection equations within a multiview correspondence framework, in order to obtain robust matching from a set of putative correspondences.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1134,29 +1042,24 @@ known. The plane of symmetry and the basis shapes are learned as weights of the 
                   <em>RAL</em>, 2020
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://ieeexplore.ieee.org/iel7/7083369/7339444/08977317.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this work, we propose a method that learns image features targeted for image-retrieval-based localization. Retrieval-based localization has several benefits, such as easy maintenance and quick computation. However, the state-of-the-art features only provide visual similarity scores which do not explicitly reveal the geometric distance between query and retrieved images. Knowing this distance is highly desirable for accurate localization, especially when the reference images are sparsely distributed in the scene. Therefore, we propose a novel loss function for learning image features which are both visually representative and geometrically relatable.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://ieeexplore.ieee.org/iel7/7083369/7339444/08977317.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this work, we propose a method that learns image features targeted for image-retrieval-based localization. Retrieval-based localization has several benefits, such as easy maintenance and quick computation. However, the state-of-the-art features only provide visual similarity scores which do not explicitly reveal the geometric distance between query and retrieved images. Knowing this distance is highly desirable for accurate localization, especially when the reference images are sparsely distributed in the scene. Therefore, we propose a novel loss function for learning image features which are both visually representative and geometrically relatable.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1176,34 +1079,29 @@ known. The plane of symmetry and the basis shapes are learned as weights of the 
                   <em>ICCV</em>, 2019
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Probst_Convex_Relaxations_for_Consensus_and_Non-Minimal_Problems_in_3D_Vision_ICCV_2019_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>The proposed method exploits the well known Shor’s or
+                  
+                  
+                  <a class="pub-link" href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Probst_Convex_Relaxations_for_Consensus_and_Non-Minimal_Problems_in_3D_Vision_ICCV_2019_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>The proposed method exploits the well known Shor’s or
 Lasserre’s relaxations, whose theoretical aspects are also
 discussed. Notably, we further exploit the Polynomials Optimization Problems (POP) formulation
 of non-minimal solver also for the generic consensus maximization problems in 3D vision. We support the proposed framework
 by three diverse applications in 3D vision, namely rigid
 body transformation estimation, Non-Rigid Structure-fromMotion (NRSfM), and camera autocalibration</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1223,32 +1121,27 @@ body transformation estimation, Non-Rigid Structure-fromMotion (NRSfM), and came
                   <em>CVPR</em>, 2019
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_Unsupervised_Learning_of_Consensus_Maximization_for_3D_Vision_Problems_CVPR_2019_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we propose for the
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_Unsupervised_Learning_of_Consensus_Maximization_for_3D_Vision_Problems_CVPR_2019_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we propose for the
 first time an unsupervised learning framework for consensus maximization, in the context of solving 3D vision problems. For that purpose, we establish a relationship between inlier measurements, represented by an ideal of inlier set, and the subspace of polynomials representing the
 space of target transformations. Using this relationship, we
 derive a constraint that must be satisfied by the sought inlier set.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1268,29 +1161,24 @@ derive a constraint that must be satisfied by the sought inlier set.</p>
                   <em>CVPR</em>, 2019
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_What_Correspondences_Reveal_About_Unknown_Camera_and_Motion_Models_CVPR_2019_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>The work describes finding a particular camera geometry from two view image correspondences. We first describe a framework that can be used to compute the `simplest’ camera model for a given set of correspondences. We further provide a theoretical analysis on what type of motions and camera models are discoverable from two view correspondences.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_What_Correspondences_Reveal_About_Unknown_Camera_and_Motion_Models_CVPR_2019_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>The work describes finding a particular camera geometry from two view image correspondences. We first describe a framework that can be used to compute the `simplest’ camera model for a given set of correspondences. We further provide a theoretical analysis on what type of motions and camera models are discoverable from two view correspondences.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1310,34 +1198,29 @@ derive a constraint that must be satisfied by the sought inlier set.</p>
                   <em>CVPR</em>, 2019
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Thoma_Mapping_Localization_and_Path_Planning_for_Image-Based_Navigation_Using_Visual_CVPR_2019_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>The problem of localization often arises as part of a navigation process. In this paper we summarize
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Thoma_Mapping_Localization_and_Path_Planning_for_Image-Based_Navigation_Using_Visual_CVPR_2019_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>The problem of localization often arises as part of a navigation process. In this paper we summarize
 the reference images as a set of landmarks, which meet the
 requirements for image-based navigation. A contribution
 of this paper is to formulate such a set of requirements for
 the two sub-tasks involved: compact map construction and
 accurate self localization. These requirements are then exploited for compact map representation and accurate self-localization, using the framework of a network flow problem. During this process, we formulate the map construction and self-localization problems as convex quadratic and second-order cone programs, respectively.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1357,33 +1240,28 @@ accurate self localization. These requirements are then exploited for compact ma
                   <em>ECCV</em>, 2018
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Thomas_Probst_Model-free_Consensus_Maximization_ECCV_2018_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We formulate the model-free consensus
+                  
+                  
+                  <a class="pub-link" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Thomas_Probst_Model-free_Consensus_Maximization_ECCV_2018_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We formulate the model-free consensus
 maximization as an Integer Program in a graph using ‘rules’ on measurements.
 We then provide a method to solve it optimally using the Branch and Bound
 (BnB) paradigm. We focus its application on non-rigid shapes, where we apply
 the method to remove outlier 3D correspondences and achieve performance superior to the state of the art.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1403,22 +1281,21 @@ the method to remove outlier 3D correspondences and achieve performance superior
                   <em>ECCV</em>, 2018
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Thomas_Probst_Incremental_Non-Rigid_Structure-from-Motion_ECCV_2018_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper we present
+                  
+                  
+                  <a class="pub-link" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Thomas_Probst_Incremental_Non-Rigid_Structure-from-Motion_ECCV_2018_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper we present
 a method for incremental Non-Rigid Structure-from-Motion (NRSfM) with the
 perspective camera model and the isometric surface prior with unknown focal
 length. In the template-based case, we provide a method to estimate four parameters of the camera intrinsics. For the template-less scenario of NRSfM, we propose a method to upgrade reconstructions obtained for one focal length to another
@@ -1428,12 +1305,8 @@ non-rigid shapes. We further solve the problem of incorporating a large number o
 points and adding more views in MDH-based NRSfM and efficiently solve them
 with Second-Order Cone Programming (SOCP).</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1453,29 +1326,24 @@ with Second-Order Cone Programming (SOCP).</p>
                   <em>ICRA/RAL</em>, 2018
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://arxiv.org/abs/1709.05665">arxiv</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>In this paper, we solve the problem of the calibration of stereo-microscope and consequently that of the 3D reconstruction of an unknown scene under the microscope. For the first time using a single pipeline, starting from uncalibrated cameras we achieve the metric 3D reconstruction and registration, for retinal microsurgery. The key ingredients of our method are: (a) surgical tool landmark detection, and (b) 3D reconstruction with the stereo microscope, using the detected landmarks. To address the former, we propose a novel deep learning method that detects and recognizes keypoints in high definition images at higher than real-time speed. We use the detected 2D keypoints along with their corresponding 3D coordinates obtained from the robot sensors to calibrate the stereo microscope using an affine projection model. We design an online 3D reconstruction pipeline that makes use of smoothness constraints and performs robot-to-camera registration.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://arxiv.org/abs/1709.05665">arXiv</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>In this paper, we solve the problem of the calibration of stereo-microscope and consequently that of the 3D reconstruction of an unknown scene under the microscope. For the first time using a single pipeline, starting from uncalibrated cameras we achieve the metric 3D reconstruction and registration, for retinal microsurgery. The key ingredients of our method are: (a) surgical tool landmark detection, and (b) 3D reconstruction with the stereo microscope, using the detected landmarks. To address the former, we propose a novel deep learning method that detects and recognizes keypoints in high definition images at higher than real-time speed. We use the detected 2D keypoints along with their corresponding 3D coordinates obtained from the robot sensors to calibrate the stereo microscope using an affine projection model. We design an online 3D reconstruction pipeline that makes use of smoothness constraints and performs robot-to-camera registration.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1495,29 +1363,24 @@ with Second-Order Cone Programming (SOCP).</p>
                   <em>T-PAMI</em>, 2017
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://ieeexplore.ieee.org/iel7/34/8454009/08067444.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We present a global and convex formulation for the template-less 3D reconstruction of a deforming object with the perspective camera. We show for the first time how to construct a Second-Order Cone Programming (SOCP) problem for Non-Rigid Structure-from-Motion (NRSfM) using the Maximum-Depth Heuristic (MDH). In this regard, we deviate strongly from the general trend of using affine cameras and factorization-based methods to solve NRSfM, which do not perform well with complex nonlinear deformations. In MDH, the points’ depths are maximized so that the distance between neighbouring points in camera space are upper bounded by the geodesic distance. In NRSfM both geodesic and camera space distances are unknown. We show that, nonetheless, given point correspondences and the camera’s intrinsics the whole problem can be solved with SOCP. This is the first convex formulation for NRSfM with physical constraints. We further present how robustness and temporal continuity can be included in the formulation to handle outliers and decrease the problem size, respectively.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://ieeexplore.ieee.org/iel7/34/8454009/08067444.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We present a global and convex formulation for the template-less 3D reconstruction of a deforming object with the perspective camera. We show for the first time how to construct a Second-Order Cone Programming (SOCP) problem for Non-Rigid Structure-from-Motion (NRSfM) using the Maximum-Depth Heuristic (MDH). In this regard, we deviate strongly from the general trend of using affine cameras and factorization-based methods to solve NRSfM, which do not perform well with complex nonlinear deformations. In MDH, the points’ depths are maximized so that the distance between neighbouring points in camera space are upper bounded by the geodesic distance. In NRSfM both geodesic and camera space distances are unknown. We show that, nonetheless, given point correspondences and the camera’s intrinsics the whole problem can be solved with SOCP. This is the first convex formulation for NRSfM with physical constraints. We further present how robustness and temporal continuity can be included in the formulation to handle outliers and decrease the problem size, respectively.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1537,22 +1400,21 @@ with Second-Order Cone Programming (SOCP).</p>
                   <em>CVPR</em>, 2016
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Chhatkuli_Inextensible_Non-Rigid_Shape-From-Motion_CVPR_2016_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>We present a global and convex formulation for
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Chhatkuli_Inextensible_Non-Rigid_Shape-From-Motion_CVPR_2016_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>We present a global and convex formulation for
 template-less 3D reconstruction of a deforming object with
 the perspective camera. We show for the first time how
 to construct a Second-Order Cone Programming (SOCP)
@@ -1567,12 +1429,8 @@ nonetheless, given point correspondences and the camera’s
 intrinsics the whole problem is convex and solvable with
 SOCP.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1592,29 +1450,24 @@ SOCP.</p>
                   <em>T-PAMI</em>, 2016
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://ieeexplore.ieee.org/iel7/34/4359286/07464873.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Shape-from-Template (SfT) reconstructs the shape of a deforming surface from a single image, a 3D template and a deformation prior. For isometric deformations, this is a well-posed problem. However, previous methods which require no initialization break down when the perspective effects are small, which happens when the object is small or viewed from larger distances. That is, they do not handle all projection geometries. We propose stable SfT methods that accurately reconstruct the 3D shape for all projection geometries. We follow the existing approach of using first-order differential constraints and obtain local analytical solutions for depth and the first-order quantities: the depth-gradient or the surface normal. Previous methods use the depth solution directly to obtain the 3D shape. We prove that the depth solution is unstable when the projection geometry tends to affine, while the solution for the first-order quantities remain stable for all projection geometries. We therefore propose to solve SfT by first estimating the first-order quantities (either depth-gradient or surface normal) and integrating them to obtain shape.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://ieeexplore.ieee.org/iel7/34/4359286/07464873.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Shape-from-Template (SfT) reconstructs the shape of a deforming surface from a single image, a 3D template and a deformation prior. For isometric deformations, this is a well-posed problem. However, previous methods which require no initialization break down when the perspective effects are small, which happens when the object is small or viewed from larger distances. That is, they do not handle all projection geometries. We propose stable SfT methods that accurately reconstruct the 3D shape for all projection geometries. We follow the existing approach of using first-order differential constraints and obtain local analytical solutions for depth and the first-order quantities: the depth-gradient or the surface normal. Previous methods use the depth solution directly to obtain the 3D shape. We prove that the depth solution is unstable when the projection geometry tends to affine, while the solution for the first-order quantities remain stable for all projection geometries. We therefore propose to solve SfT by first estimating the first-order quantities (either depth-gradient or surface normal) and integrating them to obtain shape.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1634,22 +1487,21 @@ SOCP.</p>
                   <em>BMVC</em>, 2014
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="http://www.bmva.org/bmvc/2014/files/paper041.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>This paper proposes a general framework to solve Non-Rigid Shape-from-Motion
+                  
+                  
+                  <a class="pub-link" href="http://www.bmva.org/bmvc/2014/files/paper041.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>This paper proposes a general framework to solve Non-Rigid Shape-from-Motion
 (NRSfM) with the perspective camera under isometric deformations. Contrary to the
 usual low-rank linear shape basis, isometry allows us to recover complex shape deformations from a sparse set of images. Existing methods suffer from ambiguities and may be
 very expensive to solve. We bring four main contributions. First, we formulate isometric NRSfM as a system of first-order Partial Differential Equations (PDE) involving the
@@ -1659,12 +1511,8 @@ show that it makes the system locally solvable for at least three views. Fourth,
 an analytic solution which involves convex, linear least-squares optimization only, and
 outperforms existing works.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1684,29 +1532,24 @@ outperforms existing works.</p>
                   <em>ISBI</em>, 2014
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://ieeexplore.ieee.org/iel7/6861559/6867780/06868106.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Augmented Reality (AR) can improve the information delivery to surgeons. In laparosurgery, the primary goal of AR is to provide multimodal information overlaid in live laparoscopic videos. For gynecologic laparoscopy, the 3D reconstruction of uterus and its deformable registration to preoperative data form the major problems in AR. Shape-from-Shading (SfS) and inter-frame registration require an accurate identification of the uterus region, the occlusions due to surgical tools, specularities, and other tissues. We propose a cascaded patient-specific real-time segmentation method to identify these four important regions. We use a color based Gaussian Mixture Model (GMM) to segment the tools and a more elaborate color and texture model to segment the uterus. The specularities are obtained by a saturation test. We show that our segmentation improves SfS and inter-frame registration of the uterus.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://ieeexplore.ieee.org/iel7/6861559/6867780/06868106.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Augmented Reality (AR) can improve the information delivery to surgeons. In laparosurgery, the primary goal of AR is to provide multimodal information overlaid in live laparoscopic videos. For gynecologic laparoscopy, the 3D reconstruction of uterus and its deformable registration to preoperative data form the major problems in AR. Shape-from-Shading (SfS) and inter-frame registration require an accurate identification of the uterus region, the occlusions due to surgical tools, specularities, and other tissues. We propose a cascaded patient-specific real-time segmentation method to identify these four important regions. We use a color based Gaussian Mixture Model (GMM) to segment the tools and a more elaborate color and texture model to segment the uterus. The specularities are obtained by a saturation test. We show that our segmentation improves SfS and inter-frame registration of the uterus.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1726,34 +1569,29 @@ outperforms existing works.</p>
                   <em>CVPR</em>, 2014
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://openaccess.thecvf.com/content_cvpr_2014/papers/Chhatkuli_Stable_Template-Based_Isometric_2014_CVPR_paper.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Reconstructing an isometric surface from a single 2D input image matched to a 3D
+                  
+                  
+                  <a class="pub-link" href="https://openaccess.thecvf.com/content_cvpr_2014/papers/Chhatkuli_Stable_Template-Based_Isometric_2014_CVPR_paper.pdf">PDF</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Reconstructing an isometric surface from a single 2D input image matched to a 3D
 template has been shown to be a well-posed problem. This however does not
 tell us how reconstruction algorithms will behave in practical conditions, where the amount of perspective is generally
 small and the projection thus behaves like weak-perspective
 or orthography. We here bring answers to what is theoretically recoverable in such imaging conditions, and explain
 why existing convex numerical solutions and analytical solutions to 3D reconstruction may be unstable. We then propose a new algorithm which works under all imaging conditions, from strong to loose perspective by using the algebraic solution of the depth’s Jacobian.</p>
 
-                      </div>
-                    </details>
-                    
                   </div>
-                  
-                </div>
+                </details>
                 
               </div>
             </article>
@@ -1773,29 +1611,24 @@ why existing convex numerical solutions and analytical solutions to 3D reconstru
                   <em>SPIE</em>, 2013
                   
                 </p>
-                
                 <div class="pub-card__actions">
-                  <div class="pub-card__links">
-                    
-                    
-                    
-                    <a class="pub-link pub-link--text" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8674/86740J/Separating-compound-figures-in-journal-articles-to-allow-for-subfigure/10.1117/12.2007897.pdf">pdf</a>
-                    
-                    
-                    <details class="pub-card__details">
-                      <summary class="pub-card__toggle">
-                        <span class="pub-card__toggle-text pub-card__toggle-text--more">more</span>
-                        <span class="pub-card__toggle-text pub-card__toggle-text--less">less</span>
-                      </summary>
-                      <div class="pub-card__excerpt">
-                        <p>Journal images represent an important part of the knowledge stored in the medical literature. Figure classification has received much attention as the information of the image types can be used in a variety of contexts to focus image search and filter out unwanted information or ”noise”, for example non–clinical images. A major problem in figure classification is the fact that many figures in the biomedical literature are compound figures and do often contain more than a single figure type. Some journals do separate compound figures into several parts but many do not, thus requiring currently manual separation. In this work, a technique of compound figure separation is proposed and implemented based on systematic detection and analysis of uniform space gaps. The method discussed in this article is evaluated on a dataset of journal figures of the open access literature that was created for the ImageCLEF 2012 benchmark and contains about 3000 compound figures. Automatic tools can easily reach a relatively high accuracy in separating compound figures. To further increase accuracy efforts are needed to improve the detection process as well as to avoid over–separation with powerful analysis strategies.</p>
-
-                      </div>
-                    </details>
-                    
-                  </div>
+                  
+                  
+                  <a class="pub-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8674/86740J/Separating-compound-figures-in-journal-articles-to-allow-for-subfigure/10.1117/12.2007897.pdf">PDF</a>
+                  
+                  
+                  
+                  
                   
                 </div>
+                
+                <details class="pub-card__details">
+                  <summary class="pub-card__toggle">Short description</summary>
+                  <div class="pub-card__excerpt">
+                    <p>Journal images represent an important part of the knowledge stored in the medical literature. Figure classification has received much attention as the information of the image types can be used in a variety of contexts to focus image search and filter out unwanted information or ”noise”, for example non–clinical images. A major problem in figure classification is the fact that many figures in the biomedical literature are compound figures and do often contain more than a single figure type. Some journals do separate compound figures into several parts but many do not, thus requiring currently manual separation. In this work, a technique of compound figure separation is proposed and implemented based on systematic detection and analysis of uniform space gaps. The method discussed in this article is evaluated on a dataset of journal figures of the open access literature that was created for the ImageCLEF 2012 benchmark and contains about 3000 compound figures. Automatic tools can easily reach a relatively high accuracy in separating compound figures. To further increase accuracy efforts are needed to improve the detection process as well as to avoid over–separation with powerful analysis strategies.</p>
+
+                  </div>
+                </details>
                 
               </div>
             </article>
@@ -1803,13 +1636,34 @@ why existing convex numerical solutions and analytical solutions to 3D reconstru
             
           </div>
         </section>
+
+        <section class="section" id="experience">
+          <h2 class="section__title">Experience & Service</h2>
+          <div class="experience-list">
+            
+            <div class="news-item">
+              <span class="news-date">2024 - Pres</span>
+              <span class="news-content"><strong>Research Scientist</strong> at INSAIT, Sofia.</span>
+            </div>
+            
+            <div class="news-item">
+              <span class="news-date">2017 - 2024</span>
+              <span class="news-content"><strong>Senior Scientist / Postdoc</strong> at ETH Zurich.</span>
+            </div>
+            
+            <div class="news-item">
+              <span class="news-date">Service</span>
+              <span class="news-content"><strong>Reviewer:</strong> TPAMI, IJCV, CVPR, ICCV, ECCV, NeurIPS, ICLR.</span>
+            </div>
+            
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer">
-        <p>Design and source code adapted from <a href="https://jonbarron.info">Jon Barron's website</a> and <a href="https://leonidk.com/">Leonid Keselman's</a> <a href="https://github.com/leonidk/new_website">Jekyll fork</a>.</p>
+        <p>&copy; 2026 Ajad Chhatkuli. Design adapted for a modern academic profile.</p>
       </footer>
     </div>
   </div>
 </body>
-
 </html>
