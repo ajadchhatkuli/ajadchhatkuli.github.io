@@ -6,7 +6,6 @@ image: /images/ihuman-instant-animatable-digital-humans-from-monocular-videos.pn
 categories: research
 authors: "Pramish Paudel, Anubhav Khanal, Danda Pani Paudel, Jyoti Tandukar, <strong>Ajad Chhatkuli</strong>"
 venue: "European Conference on Computer Vision"
-arxiv: https://link.springer.com/chapter/10.1007/978-3-031-73226-3_18
 pdf: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09607.pdf
 ---
 
