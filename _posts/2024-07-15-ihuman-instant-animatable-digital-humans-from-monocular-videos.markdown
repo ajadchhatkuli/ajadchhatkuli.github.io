@@ -4,10 +4,10 @@ title: "iHuman: Instant Animatable Digital Humans From Monocular Videos"
 date:   2024-07-15
 image: /images/ihuman-instant-animatable-digital-humans-from-monocular-videos.png
 categories: research
-authors: "Pramish Paudel, Anubhav Khanal, <strong>Ajad Chhatkuli</strong>, D. Paudel, Jyoti Tandukar"
+authors: "Pramish Paudel, Anubhav Khanal, Danda Pani Paudel, Jyoti Tandukar, <strong>Ajad Chhatkuli</strong>"
 venue: "European Conference on Computer Vision"
-arxiv: https://arxiv.org/abs/2407.11174
-pdf: https://arxiv.org/pdf/2407.11174.pdf
+arxiv: https://link.springer.com/chapter/10.1007/978-3-031-73226-3_18
+pdf: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09607.pdf
 ---
 
 In this paper, we present a fast, simple, yet effective method for creating animatable 3D digital
