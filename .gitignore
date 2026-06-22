@@ -1,0 +1,6 @@
+.DS_Store
+.claude/
+
+# Keep personal CV out of the public repo
+CV_Ajad.pdf
+_site/CV_Ajad.pdf

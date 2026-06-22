@@ -1,6 +1,20 @@
+- date: June 2026
+  post: "Presented \"COM4D: Inferring Compositional 4D Scenes without Ever Seeing One\" at CVPR 2026, plus a workshop paper \"iARCS: Iterative Agentic RL for Controllable 3D Scene Generation\"."
+- date: Jan 2026
+  post: "\"EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark\" accepted at ICLR'2026."
 - date: Dec 2025
-  post: New paper "Inferring Compositional 4D Scenes" accepted.
+  post: "\"COM4D: Inferring Compositional 4D Scenes without Ever Seeing One\" released on arxiv, codes are available at com4d.insait.ai."
 - date: Oct 2025
-  post: "\"EgoNight\" project on egocentric vision under night conditions released."
-- date: May 2025
-  post: "\"One2Any\" for 6D pose estimation published."
+  post: "\"EgoNight: Towards Egocentric Vision Understanding at Night\" accepted to ICLR 2026, released on arxiv."
+- date: Sep 2025
+  post: "\"Enhancing Semantic Segmentation with Continual Self-Supervised Pre-training\" accepted to TMLR."
+- date: Mar 2025
+  post: "\"One2Any: One-Reference 6D Pose Estimation for Any Object\" accepted to CVPR 2025."
+- date: Sep 2024
+  post: "\"Self-supervised Shape Completion via Involution and Implicit Correspondences\" presented at ECCV 2024."
+- date: Aug 2024
+  post: "\"VF-NeRF: Learning Neural Vector Fields for Indoor Scene Reconstruction\" released on arXiv."
+- date: Jul 2024
+  post: "\"iHuman: Instant Animatable Digital Humans From Monocular Videos\" presented at ECCV 2024."
+- date: Jun 2024
+  post: "\"Vision Transformers with Hierarchical Attention\" published in Machine Intelligence Research."

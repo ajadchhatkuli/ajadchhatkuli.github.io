@@ -1,0 +1,66 @@
+# Projects shown in the "Projects" section, current first.
+# Fields: name (required), tagline, org, period, role, description, link, tags
+- name: "SceneVerse"
+  tagline: "Data engine for 3D/4D Video-Language Models"
+  org: "INSAIT"
+  period: "2024 – Present"
+  role: "Founder & Lead"
+  description: "Building a data engine for 3D/4D video-language models. The effort produced COM4D (Compositional 4D), accepted at CVPR 2026."
+  link: "https://com4d.insait.ai"
+  tags: ["3D/4D Generation", "Video-Language"]
+
+- name: "INSAIT-VIVO"
+  tagline: "3D Scene & Video Understanding"
+  org: "INSAIT"
+  period: "2024 – Present"
+  role: "Research Lead"
+  description: "Industry-academic project on 3D scene and video understanding, spanning PhD supervision and applied research."
+  tags: ["Scene Understanding", "Video Understanding"]
+
+- name: "AlignTech Dental Vision"
+  tagline: "Tooth and X-ray image segmentation"
+  org: "ETH Zurich"
+  period: "3 years"
+  role: "Project Lead"
+  description: "Dental image segmentation for standard and X-ray imagery — methods and model architecture for an industry partner."
+  tags: ["Medical Imaging", "Segmentation"]
+
+- name: "ETH-VIVO"
+  tagline: "Mapping and tracking for Augmented Reality"
+  org: "ETH Zurich"
+  period: "3 years"
+  role: "Project Lead"
+  description: "Mapping and tracking for AR, covering shape completion, object tracking, and neural radiance fields (NeRF)."
+  tags: ["AR", "Tracking", "NeRF"]
+
+- name: "ENCORE"
+  tagline: "3D scans to architectural CAD (IFC)"
+  org: "ETH Zurich · EU Horizon"
+  period: "3.5 years"
+  role: "ETH Project Lead"
+  description: "Generation of architectural CAD (IFC/BIM) models of buildings from 3D scans, based on point-cloud segmentation."
+  tags: ["Point Clouds", "BIM/IFC"]
+
+- name: "REPLICATE"
+  tagline: "Mobile-cloud 3D scene reconstruction"
+  org: "ETH Zurich · EU Horizon"
+  period: "1.5 years"
+  role: "ETH Project Lead"
+  description: "Mobile-cloud based generic 3D scene reconstruction and applications, including 3D understanding and segmentation."
+  tags: ["3D Reconstruction", "Scene Understanding"]
+
+- name: "EUREYECASE"
+  tagline: "Microscopic retinal 3D reconstruction"
+  org: "ETH Zurich · EU"
+  period: "8 months"
+  role: "ETH Project Lead"
+  description: "Detection, tracking, and microscopic 3D reconstruction on retinal microscopy images."
+  tags: ["Medical Imaging", "3D Reconstruction"]
+
+- name: "Dental AR"
+  tagline: "Hand-eye calibration and object pose"
+  org: "ETH Zurich"
+  period: "1 year"
+  role: "ETH Project Lead"
+  description: "Hand-eye calibration and object pose estimation for dental augmented reality."
+  tags: ["AR", "Pose Estimation"]
