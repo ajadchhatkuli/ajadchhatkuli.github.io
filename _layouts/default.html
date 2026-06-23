@@ -21,9 +21,8 @@
         <div class="nav__links">
           <a class="nav__link" href="#about">About</a>
           {% if site.show_news %}<a class="nav__link" href="#news">News</a>{% endif %}
-          <a class="nav__link" href="#publications">Publications</a>
           <a class="nav__link" href="#projects">Projects</a>
-          <a class="nav__link" href="#experience">Experience</a>
+          <a class="nav__link" href="#publications">Publications</a>
         </div>
       </nav>
 
@@ -64,6 +63,33 @@
           </div>
         </section>
         {% endif %}
+
+        <section class="section" id="projects">
+          <h2 class="section__title">Projects</h2>
+          <div class="project-grid">
+            {% for project in site.data.projects %}
+            <article class="project-card">
+              <div class="project-card__head">
+                <h3 class="project-card__name">
+                  {% if project.link %}<a href="{{ project.link }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}
+                </h3>
+                {% if project.period %}<span class="project-card__period">{{ project.period }}</span>{% endif %}
+              </div>
+              {% if project.tagline %}<p class="project-card__tagline">{{ project.tagline }}</p>{% endif %}
+              <p class="project-card__meta">
+                {% if project.role %}<span class="project-card__role">{{ project.role }}</span>{% endif %}
+                {% if project.org %}<span class="project-card__org">{{ project.org }}</span>{% endif %}
+              </p>
+              {% if project.description %}<p class="project-card__desc">{{ project.description }}</p>{% endif %}
+              {% if project.tags %}
+              <div class="project-card__tags">
+                {% for tag in project.tags %}<span class="project-tag">{{ tag }}</span>{% endfor %}
+              </div>
+              {% endif %}
+            </article>
+            {% endfor %}
+          </div>
+        </section>
 
         <section class="section" id="publications">
           <h2 class="section__title">Publications</h2>
@@ -110,44 +136,6 @@
           </div>
         </section>
 
-        <section class="section" id="projects">
-          <h2 class="section__title">Projects</h2>
-          <div class="project-grid">
-            {% for project in site.data.projects %}
-            <article class="project-card">
-              <div class="project-card__head">
-                <h3 class="project-card__name">
-                  {% if project.link %}<a href="{{ project.link }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}
-                </h3>
-                {% if project.period %}<span class="project-card__period">{{ project.period }}</span>{% endif %}
-              </div>
-              {% if project.tagline %}<p class="project-card__tagline">{{ project.tagline }}</p>{% endif %}
-              <p class="project-card__meta">
-                {% if project.role %}<span class="project-card__role">{{ project.role }}</span>{% endif %}
-                {% if project.org %}<span class="project-card__org">{{ project.org }}</span>{% endif %}
-              </p>
-              {% if project.description %}<p class="project-card__desc">{{ project.description }}</p>{% endif %}
-              {% if project.tags %}
-              <div class="project-card__tags">
-                {% for tag in project.tags %}<span class="project-tag">{{ tag }}</span>{% endfor %}
-              </div>
-              {% endif %}
-            </article>
-            {% endfor %}
-          </div>
-        </section>
-
-        <section class="section" id="experience">
-          <h2 class="section__title">Experience & Service</h2>
-          <div class="experience-list">
-            {% for item in site.data.experience %}
-            <div class="news-item">
-              <span class="news-date">{{ item.date }}</span>
-              <span class="news-content">{{ item.content }}</span>
-            </div>
-            {% endfor %}
-          </div>
-        </section>
       </main>
 
       <footer class="site-footer">

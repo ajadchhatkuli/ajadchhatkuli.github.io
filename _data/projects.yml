@@ -1,20 +1,20 @@
 # Projects shown in the "Projects" section, current first.
 # Fields: name (required), tagline, org, period, role, description, link, tags
-- name: "SceneVerse"
+- name: "sceneverse.ai"
   tagline: "Data engine for 3D/4D Video-Language Models"
   org: "INSAIT"
-  period: "2024 – Present"
+  period: "2024 – 2026"
   role: "Founder & Lead"
   description: "Building a data engine for 3D/4D video-language models. The effort produced COM4D (Compositional 4D), accepted at CVPR 2026."
   link: "https://com4d.insait.ai"
-  tags: ["3D/4D Generation", "Video-Language"]
+  tags: ["3D/4D Generation"]
 
 - name: "INSAIT-VIVO"
   tagline: "3D Scene & Video Understanding"
   org: "INSAIT"
   period: "2024 – Present"
   role: "Research Lead"
-  description: "Industry-academic project on 3D scene and video understanding, spanning PhD supervision and applied research."
+  description: "Industry-academic project on 3D scene and video understanding, applied research and supervision."
   tags: ["Scene Understanding", "Video Understanding"]
 
 - name: "AlignTech Dental Vision"
@@ -22,7 +22,7 @@
   org: "ETH Zurich"
   period: "3 years"
   role: "Project Lead"
-  description: "Dental image segmentation for standard and X-ray imagery — methods and model architecture for an industry partner."
+  description: "Dental image and video segmentation for standard and X-ray imagery — methods and model architecture for an industry partner."
   tags: ["Medical Imaging", "Segmentation"]
 
 - name: "ETH-VIVO"
