@@ -116,6 +116,7 @@
                   {% if primary_link %}
                   <a class="pub-link" href="{{ primary_link }}">{% if post.arxiv %}arXiv{% else %}PDF{% endif %}</a>
                   {% endif %}
+                  {% if post.project %}<a class="pub-link" href="{{ post.project }}">Project</a>{% endif %}
                   {% if post.video %}<a class="pub-link" href="{{ post.video }}">Video</a>{% endif %}
                   {% if post.code %}<a class="pub-link" href="{{ post.code }}">Code</a>{% endif %}
                   {% if post.poster %}<a class="pub-link" href="{{ post.poster }}">Poster</a>{% endif %}
