@@ -2,7 +2,7 @@
 layout: post
 title:  "Non-Rigid Shape-from-Motion for Isometric Surfaces using Infinitesimal Planarity"
 date:   2014-09-01
-image: /images/inftpl_nrsfm.png
+image: /images/2014-09-01-inftpl_nrsfm.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Daniel Pizarro, Adrien Bartoli"
 venue: "BMVC"

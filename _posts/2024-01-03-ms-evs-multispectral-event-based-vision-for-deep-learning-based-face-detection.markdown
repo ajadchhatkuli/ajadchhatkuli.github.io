@@ -2,7 +2,7 @@
 layout: post
 title: "MS-EVS: Multispectral event-based vision for deep learning based face detection"
 date:   2024-01-03
-image: /images/ms-evs-multispectral-event-based-vision-for-deep-learning-based-face-detection.png
+image: /images/2024-01-03-ms-evs-multispectral-event-based-vision-for-deep-learning-based-face-detection.png
 categories: research
 authors: "Saad Himmi, Vincent Parret, <strong>Ajad Chhatkuli</strong>, L. V. Gool"
 venue: "IEEE Workshop/Winter Conference on Applications of Computer Vision"

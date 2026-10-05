@@ -2,7 +2,7 @@
 layout: post
 title:  "Live image parsing in uterine laparoscopy"
 date:   2014-09-01
-image: /images/laparo-uterine.png
+image: /images/2014-04-29-laparo-uterine.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Adrien Bartoli, Abed Malti, Toby Collins"
 venue: "ISBI"

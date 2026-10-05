@@ -2,7 +2,7 @@
 layout: post
 title: "Deformable Neural Radiance Fields using RGB and Event Cameras"
 date:   2023-09-15
-image: /images/deformable-neural-radiance-fields-using-rgb-and-event-cameras.png
+image: /images/2023-09-15-deformable-neural-radiance-fields-using-rgb-and-event-cameras.png
 categories: research
 authors: "Qi Ma, D. Paudel, <strong>Ajad Chhatkuli</strong>, L. Gool"
 venue: "IEEE International Conference on Computer Vision"

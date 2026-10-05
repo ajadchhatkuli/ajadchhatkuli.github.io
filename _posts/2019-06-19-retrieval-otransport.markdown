@@ -2,7 +2,7 @@
 layout: post
 title: "Mapping, localization and path planning for image-based navigation using visual features and map"
 date:   2019-06-19
-image: /images/map_nav_plan.png
+image: /images/2019-06-19-map_nav_plan.png
 categories: research
 authors: "Janine Thoma, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Thomas Probst, Luc Van Gool"
 venue: "CVPR"

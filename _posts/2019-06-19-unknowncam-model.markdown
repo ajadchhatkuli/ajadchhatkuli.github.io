@@ -2,7 +2,7 @@
 layout: post
 title: "What Correspondences Reveal About Unknown Camera and Motion Models?"
 date:   2019-06-19
-image: /images/what_corresp.png
+image: /images/2019-06-19-what_corresp.png
 categories: research
 authors: "Thomas Probst, <strong>Ajad Chhatkuli</strong>, Danda Pani Paudel, Luc Van Gool"
 venue: "CVPR"

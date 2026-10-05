@@ -2,7 +2,7 @@
 layout: post
 title:  "Unsupervised Monocular Depth Reconstruction of Non-Rigid Scenes"
 date:   2021-12-01
-image: /images/unsup-nonrigid.png
+image: /images/2021-12-01-unsup-nonrigid.png
 categories: research
 authors: "Ayça Takmaz, Danda Pani Paudel, Thomas Probst, <strong>Ajad Chhatkuli</strong>, Martin R Oswald, Luc Van Gool"
 venue: "3DV"

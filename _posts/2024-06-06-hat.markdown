@@ -2,7 +2,7 @@
 layout: post
 title:  "Vision transformers with hierarchical attention."
 date:   2024-06-06
-image: /images/mhsa.png
+image: /images/2024-06-06-mhsa.png
 categories: research
 authors: "Yun Liu, Yu-Huan Wu, Guolei Sun, Le Zhang, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "Machine Intelligence Research"

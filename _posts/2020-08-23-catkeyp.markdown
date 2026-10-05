@@ -2,7 +2,7 @@
 layout: post
 title:  "Unsupervised learning of category-specific symmetric 3d keypoints from point sets"
 date:   2020-08-23
-image: /images/cat_keyp.png
+image: /images/2020-08-23-cat_keyp.png
 categories: research
 authors: "Clara Fernandez-Labrador, <strong>Ajad Chhatkuli</strong>, Danda Pani Paudel, Jose J Guerrero, Cédric Demonceaux, Luc Van Gool"
 venue: "ECCV"

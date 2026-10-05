@@ -2,7 +2,7 @@
 layout: post
 title: "iSEE: Object Permanence Through Self-Supervision"
 date:   2026-10-01
-image: /images/isee-object-permanence-through-self-supervision.png
+image: /images/2026-10-01-isee-object-permanence-through-self-supervision.png
 categories: research
 authors: "Pramish Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool, Danda Pani Paudel"
 venue: "arXiv preprint"

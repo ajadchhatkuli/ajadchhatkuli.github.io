@@ -2,7 +2,7 @@
 layout: post
 title: "Unsupervised learning of consensus maximization for 3d vision problems"
 date: 2019-06-19
-image: /images/unsup_consensus.png
+image: /images/2019-06-19-unsup_consensus.png
 categories: research
 authors: "Thomas Probst, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "CVPR"

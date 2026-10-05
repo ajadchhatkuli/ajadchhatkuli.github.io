@@ -2,7 +2,7 @@
 layout: post
 title:  "Model-free consensus maximization for non-rigid shapes"
 date:   2018-09-07
-image: /images/model-free.png
+image: /images/2018-09-07-model-free.png
 categories: research
 authors: "Thomas Probst, <strong>Ajad Chhatkuli</strong>, Danda Pani Paudel, Luc Van Gool"
 venue: "ECCV"

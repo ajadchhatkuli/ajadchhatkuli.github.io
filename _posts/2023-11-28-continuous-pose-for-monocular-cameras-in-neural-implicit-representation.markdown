@@ -2,7 +2,7 @@
 layout: post
 title: "Continuous Pose for Monocular Cameras in Neural Implicit Representation"
 date:   2023-11-28
-image: /images/continuous-pose-for-monocular-cameras-in-neural-implicit-representation.png
+image: /images/2023-11-28-continuous-pose-for-monocular-cameras-in-neural-implicit-representation.png
 categories: research
 authors: "Qi Ma, D. Paudel, <strong>Ajad Chhatkuli</strong>, L. V. Gool"
 venue: "Computer Vision and Pattern Recognition"

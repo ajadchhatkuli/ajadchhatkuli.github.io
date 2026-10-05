@@ -2,7 +2,7 @@
 layout: post
 title:  "ZippyPoint: Fast Interest Point Detection, Description, and Matching through Mixed Precision Discretization"
 date:   2022-03-07
-image: /images/zippypoint.png
+image: /images/2022-03-07-zippypoint.png
 categories: research
 authors: "*Simon Mauer, Menelaos Kanakis*, Matteo Spallanzani, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "CoRR"

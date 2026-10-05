@@ -2,7 +2,7 @@
 layout: post
 title: "Inferring Compositional 4D Scenes without Ever Seeing One"
 date:   2025-12-04
-image: /images/com4d-teaser.png
+image: /images/2025-12-04-com4d-teaser.png
 categories: research
 authors: "Ahmet Berke Gokmen, <strong>Ajad Chhatkuli</strong>, Luc Van Gool, Danda Pani Paudel"
 venue: "CVPR 2026"

@@ -241,15 +241,18 @@ h3 { font-size: 1.25rem; font-weight: 600; }
 
 @media (min-width: 640px) {
   .pub-card__media {
-    width: 200px;
+    width: 300px;
   }
 }
 
 .pub-card__media img {
+  display: block;
   width: 100%;
+  height: auto;
+  max-height: 320px;
   border-radius: 8px;
-  aspect-ratio: 16/9;
-  object-fit: cover;
+  object-fit: contain;
+  background: #fff;
 }
 
 .pub-card__body {

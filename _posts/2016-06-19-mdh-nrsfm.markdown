@@ -2,7 +2,7 @@
 layout: post
 title:  "Inextensible non-rigid shape-from-motion by second-order cone programming"
 date:   2016-06-19
-image: /images/mdh-nrsfm.png
+image: /images/2016-06-19-mdh-nrsfm.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Daniel Pizarro, Toby Collins, Adrien Bartoli"
 venue: "CVPR"

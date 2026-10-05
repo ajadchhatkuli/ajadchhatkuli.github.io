@@ -2,7 +2,7 @@
 layout: post
 title: "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization"
 date:   2026-10-01
-image: /images/iadd-improving-alignment-and-diversity-in-diffusion-policy-optimization.png
+image: /images/2026-10-01-iadd-improving-alignment-and-diversity-in-diffusion-policy-optimization.png
 categories: research
 authors: "Ashok Prasad Neupane*, Saugat Adhikari*, Pramish Paudel*, <strong>Ajad Chhatkuli</strong>, Danda Pani Paudel"
 venue: "arXiv preprint"

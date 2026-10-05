@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatic tool landmark detection for stereo vision in robot-assisted retinal surgery"
 date:   2018-01-31
-image: /images/robot-eye.png
+image: /images/2018-01-31-robot-eye.png
 categories: research
 authors: "Thomas Probst, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "ICRA/RAL"

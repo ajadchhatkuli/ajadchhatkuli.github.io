@@ -2,7 +2,7 @@
 layout: post
 title:  "Geometrically mappable image features"
 date:   2020-01-31
-image: /images/geo_mappable.png
+image: /images/2020-01-31-geo_mappable.png
 categories: research
 authors: "Janine Thoma, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "RAL"

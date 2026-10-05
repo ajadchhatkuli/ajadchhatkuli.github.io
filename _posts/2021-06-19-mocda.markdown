@@ -2,7 +2,7 @@
 layout: post
 title:  "Cluster, split, fuse, and update: Meta-learning for open compound domain adaptive semantic segmentation"
 date:   2021-06-19
-image: /images/mocda.png
+image: /images/2021-06-19-mocda.png
 categories: research
 authors: "Rui Gong, Yuhua Chen, Danda Pani Paudel, Yawei Li,  <strong>Ajad Chhatkuli</strong>, Wen Li, Dengxin Dai, Luc Van Gool"
 venue: "CVPR"

@@ -2,7 +2,7 @@
 layout: post
 title: "iHuman: Instant Animatable Digital Humans From Monocular Videos"
 date:   2024-07-15
-image: /images/ihuman-instant-animatable-digital-humans-from-monocular-videos.png
+image: /images/2024-07-15-ihuman-instant-animatable-digital-humans-from-monocular-videos.png
 categories: research
 authors: "Pramish Paudel, Anubhav Khanal, Danda Pani Paudel, Jyoti Tandukar, <strong>Ajad Chhatkuli</strong>"
 venue: "European Conference on Computer Vision"

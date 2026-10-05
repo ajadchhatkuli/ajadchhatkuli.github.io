@@ -2,7 +2,7 @@
 layout: post
 title: "VF-NeRF: Learning Neural Vector Fields for Indoor Scene Reconstruction"
 date:   2024-08-16
-image: /images/vf-nerf-learning-neural-vector-fields-for-indoor-scene-reconstruction.png
+image: /images/2024-08-16-vf-nerf-learning-neural-vector-fields-for-indoor-scene-reconstruction.png
 categories: research
 authors: "Albert Gassol Puigjaner, Edoardo Mello Rella, Erik Sandström, <strong>Ajad Chhatkuli</strong>, L. V. Gool"
 venue: "arXiv.org"

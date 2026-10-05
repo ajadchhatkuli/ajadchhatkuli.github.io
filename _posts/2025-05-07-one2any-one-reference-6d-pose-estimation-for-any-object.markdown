@@ -2,7 +2,7 @@
 layout: post
 title: "One2Any: One-Reference 6D Pose Estimation for Any Object"
 date:   2025-05-07
-image: /images/one2any-one-reference-6d-pose-estimation-for-any-object.png
+image: /images/2025-05-07-one2any-one-reference-6d-pose-estimation-for-any-object.png
 categories: research
 authors: "Mengya Liu, Siyuan Li, <strong>Ajad Chhatkuli</strong>, Prune Truong, L. V. Gool, F. Tombari"
 venue: "Computer Vision and Pattern Recognition"

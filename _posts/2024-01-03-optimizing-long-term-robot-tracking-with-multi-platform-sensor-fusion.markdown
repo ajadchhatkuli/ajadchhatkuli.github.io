@@ -2,7 +2,7 @@
 layout: post
 title: "Optimizing Long-Term Robot Tracking with Multi-Platform Sensor Fusion"
 date:   2024-01-03
-image: /images/optimizing-long-term-robot-tracking-with-multi-platform-sensor-fusion.png
+image: /images/2024-01-03-optimizing-long-term-robot-tracking-with-multi-platform-sensor-fusion.png
 categories: research
 authors: "Giuliano Albanese, Arka Mitra, Jan-Nico Zaech, Yupeng Zhao, <strong>Ajad Chhatkuli</strong>, L. V. Gool"
 venue: "IEEE Workshop/Winter Conference on Applications of Computer Vision"

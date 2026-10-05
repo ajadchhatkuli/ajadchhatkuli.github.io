@@ -2,7 +2,7 @@
 layout: post
 title:  "A stable analytical framework for isometric shape-from-template by surface integration"
 date:   2016-05-04
-image: /images/stable-analytic.png
+image: /images/2016-05-04-stable-analytic.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Daniel Pizarro, Adrien Bartoli, Toby Collins"
 venue: "T-PAMI"

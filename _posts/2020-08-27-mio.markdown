@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning Condition Invariant Features for Retrieval-Based Localization from 1M Images"
 date:   2020-08-27
-image: /images/mio.png
+image: /images/2020-08-27-mio.png
 categories: research
 authors: "Janine Thoma, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "CoRR"

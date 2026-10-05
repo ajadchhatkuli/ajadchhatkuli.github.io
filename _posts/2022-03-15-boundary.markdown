@@ -2,7 +2,7 @@
 layout: post
 title:  "Zero pixel directional boundary by vector transform"
 date:   2022-03-15
-image: /images/zerovec.png
+image: /images/2022-03-15-zerovec.png
 categories: research
 authors: "Edoardo Mello Rella, <strong>Ajad Chhatkuli</strong>, Yun Liu, Ender Konukoglu, Luc Van Gool"
 venue: "ICLR"

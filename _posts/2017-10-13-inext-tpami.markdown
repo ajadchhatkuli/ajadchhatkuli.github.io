@@ -2,7 +2,7 @@
 layout: post
 title:  "Inextensible non-rigid structure-from-motion by second-order cone programming"
 date:   2017-10-13
-image: /images/tlmdh.png
+image: /images/2017-10-13-tlmdh.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Daniel Pizarro, Toby Collins, Adrien Bartoli"
 venue: "T-PAMI"

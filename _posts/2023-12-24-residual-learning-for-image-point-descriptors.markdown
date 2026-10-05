@@ -2,7 +2,7 @@
 layout: post
 title: "Residual Learning for Image Point Descriptors"
 date:   2023-12-24
-image: /images/residual-learning-for-image-point-descriptors.png
+image: /images/2023-12-24-residual-learning-for-image-point-descriptors.png
 categories: research
 authors: "Rashik Shrestha, <strong>Ajad Chhatkuli</strong>, Menelaos Kanakis, L. V. Gool"
 venue: "arXiv.org"

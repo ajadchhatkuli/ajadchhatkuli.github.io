@@ -2,7 +2,7 @@
 layout: post
 title:  "TADA: Taxonomy Adaptive Domain Adaptation"
 date:   2022-06-10
-image: /images/tada.png
+image: /images/2021-09-10-tada.png
 categories: research
 authors: "Rui Gong, Martin Danelljan, Dengxin Dai, Wenguan Wang, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Fisher Yu, Luc Van Gool"
 venue: "To appear in ECCV"

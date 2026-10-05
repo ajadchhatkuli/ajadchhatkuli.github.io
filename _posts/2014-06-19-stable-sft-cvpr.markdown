@@ -2,7 +2,7 @@
 layout: post
 title:  "Stable template-based isometric 3D reconstruction in all imaging conditions by linear least-squares"
 date:   2014-06-19
-image: /images/iso-stablesft.png
+image: /images/2014-06-19-iso-stablesft.png
 categories: research
 authors: "<strong>Ajad Chhatkuli</strong>, Daniel Pizarro, Adrien Bartoli"
 venue: "CVPR"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Incremental non-rigid structure-from-motion with unknown focal length"
 date:   2018-09-07
-image: /images/inc-nrsfm.png
+image: /images/2018-09-07-inc_nrsfm.png
 categories: research
 authors: "Thomas Probst, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "ECCV"

@@ -2,7 +2,7 @@
 layout: post
 title: "LangStreet: Persistent Language Fields for Anchor-Decoded Street Gaussians"
 date:   2026-09-10
-image: /images/langstreet-persistent-language-fields-for-anchor-decoded-street-gaussians.png
+image: /images/2026-09-10-langstreet-persistent-language-fields-for-anchor-decoded-street-gaussians.png
 categories: research
 authors: "Runyi Yang, Deheng Zhang, Xiaoye Wang, Mengjiao Ma, Lei Sun, Kanzhi Wu, <strong>Ajad Chhatkuli</strong>, Luc Van Gool, Danda Pani Paudel"
 venue: "arXiv preprint"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Self-Calibration Supported Robust Projective Structure-from-Motion"
 date:   2020-07-04
-image: /images/sc_rsfm.png
+image: /images/2020-07-04-sc_rsfm.png
 categories: research
 authors: "Rui Gong, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "CoRR"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Convex relaxations for consensus and non-minimal problems in 3D vision"
 date:   2019-10-20
-image: /images/conv_relax.png
+image: /images/2019-10-20-conv_relax.png
 categories: research
 authors: "Thomas Probst, Danda Pani Paudel, <strong>Ajad Chhatkuli</strong>, Luc Van Gool"
 venue: "ICCV"

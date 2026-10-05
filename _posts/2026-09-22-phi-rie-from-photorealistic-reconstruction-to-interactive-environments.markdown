@@ -2,7 +2,7 @@
 layout: post
 title: "φ-RIE: From Photorealistic Reconstruction to Interactive Environments"
 date:   2026-09-22
-image: /images/phi-rie-from-photorealistic-reconstruction-to-interactive-environments.png
+image: /images/2026-09-22-phi-rie-from-photorealistic-reconstruction-to-interactive-environments.png
 categories: research
 authors: "Runyi Yang, Deheng Zhang, Xiaoye Wang, Kanzhi Wu, Lei Sun, <strong>Ajad Chhatkuli</strong>, Kunyu Peng, Luc Van Gool, Danda Pani Paudel"
 venue: "arXiv preprint"
